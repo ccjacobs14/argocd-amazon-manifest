@@ -7,10 +7,10 @@ metadata:
 spec:
 #  tls:
 #  - hosts:
-#    - amazon.www.ccjacobs.org
+#    - amazon.ccjacobs.org
 #    secretName: letsencrypt-nginx
   rules:
-    - host: amazon.www.ccjacobs.org
+    - host: amazon.ccjacobs.org
       http:
         paths:
           - path: /
